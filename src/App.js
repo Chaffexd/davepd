@@ -4,6 +4,7 @@ import Portfolio from './components/Portfolio/Portfolio';
 
 import Intro from './components/Layout/Intro';
 import Team from './components/Team/Team';
+import Pledge from './components/Pledge/Pledge';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <section>
         <Portfolio />
         <Team />
+        <Pledge />
       </section>
       
     </div>
