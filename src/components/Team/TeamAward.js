@@ -25,7 +25,7 @@ const icons = [
         icon: require('../../assets/paint-bucket.png'),
         id: 3,
         title: "Experienced Team",
-        text: "Our team has a minimum of 5 years of experience, knowing the best tools and materials depending on the desired service. Our professionalism and quality makes us stand out from the crowd."
+        text: "Our team has over of 25 years of experience, knowing the best tools and materials depending on the desired service. Our professionalism and quality makes us stand out from the crowd."
     }
 ]
 

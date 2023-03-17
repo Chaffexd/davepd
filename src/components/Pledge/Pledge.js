@@ -1,5 +1,6 @@
 import React from 'react';
 import Button from '../UI/Button';
+import externalPhoto from '../../assets/external2.jpg';
 
 import classes from './Pledge.module.css';
 
@@ -22,7 +23,7 @@ const Pledge = () => {
             <Button name="GET A QUOTE" link="https://www.trustatrader.com/traders/daves-painting-decorating-painters-decorators-st-albans" />
         </div>
         <div className={classes.imageContainer}>
-            IMAGE
+            <img src={externalPhoto} alt="House" className={classes.image} />
         </div>
     </div>
   );

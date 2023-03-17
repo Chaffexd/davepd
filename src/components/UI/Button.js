@@ -4,9 +4,11 @@ import classes from './Button.module.css';
 
 const Button = (props) => {
     return (
+        <a href={props.link} target="_blank" rel="noreferrer">
         <button className={classes.button}>
-            <a href={props.link} target="_blank" rel="noreferrer">{props.name}</a>
+            {props.name}
         </button>
+        </a>
     );
 };
 
