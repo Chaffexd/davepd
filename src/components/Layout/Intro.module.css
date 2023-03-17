@@ -1,0 +1,22 @@
+.introContainer {
+    display: flex;
+}
+
+.introText {
+    width: 50%;
+    height: 20em;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.introTitle {
+    margin-bottom: 1.5em;
+}
+
+.introPhoto {
+    width: 50%;
+    background-color: blueviolet;
+}

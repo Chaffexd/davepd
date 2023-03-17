@@ -1,0 +1,15 @@
+.teamContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.excellent {
+    font-style: italic;
+}
