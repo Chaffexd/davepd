@@ -6,7 +6,7 @@ import classes from './Pledge.module.css';
 
 const Pledge = () => {
   return (
-    <div className={classes.pledgeContainer}>
+    <div className={classes.pledgeContainer} id="residential">
         <div className={classes.pledgeItems}>
             <h1 className={classes.title}>Excellent service guaranteed, delivered by our painters and decorators across London and Hertfordshire</h1>
             <p className={classes.text}>We value the <span className={classes.trust}>trust</span> that our clients place in us.</p>

@@ -35,7 +35,7 @@ const contactUsItems = [
 
 const Contact = () => {
   return (
-    <div className={classes.contactContainer}>
+    <div className={classes.contactContainer} id="contact">
         <h1 className={classes.title}>Contact us</h1>
         <div className={classes.contactItemContainer}>
             {contactUsItems.map(contactUsItem =>

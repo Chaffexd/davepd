@@ -4,19 +4,23 @@ import classes from './NavBar.module.css';
 const navItems = [
     {
         navTitle: 'About',
-        id: 0
+        id: 0,
+        href: '#about'
     },
     {
         navTitle: 'Residential',
-        id: 1
+        id: 1,
+        href: '#residential'
     },
     {
         navTitle: 'Commericial',
-        id: 2
+        id: 2,
+        href: '#residential'
     },
     {
         navTitle:'Contact',
-        id: 3
+        id: 3,
+        href: '#contact'
     }
 ];
 
@@ -31,7 +35,7 @@ const NavBar = () => {
                     className={classes.item}
                     key={item.id}
                     >
-                    {item.navTitle}
+                    <a href={item.href} className={classes.navLi}>{item.navTitle}</a>
                     </li>    
                 )}
             </ul>
