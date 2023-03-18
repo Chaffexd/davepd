@@ -15,6 +15,11 @@
     font-size: 2em;
 }
 
+.navLi {
+    text-decoration: none;
+    color: black;
+}
+
 .navItems {
     list-style-type: none;
     display: flex;
