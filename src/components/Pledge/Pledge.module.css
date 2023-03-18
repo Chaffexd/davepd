@@ -57,3 +57,9 @@ p, h1 {
     height: fit-content;
     border-radius: 0 0 40px 40px;
 }
+
+@media screen and (max-width: 850px) {
+    .title, .text {
+        text-align: center;
+    }
+}

@@ -36,3 +36,17 @@ li:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
+@media screen and (max-width: 850px) {
+    .navContainer {
+        display: flex;
+        justify-content: center;
+    }
+    .navItems {
+        display: none;
+    }
+    .davesPD {
+        margin: 0;
+        text-align: center;
+    }
+}

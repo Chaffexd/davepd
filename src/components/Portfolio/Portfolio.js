@@ -5,9 +5,7 @@ import classes from './Portfolio.module.css';
 
 const Portfolio = () => {
   return (
-    <div>
-        <PortfolioItem />
-    </div>
+      <PortfolioItem />
   );
 };
 
