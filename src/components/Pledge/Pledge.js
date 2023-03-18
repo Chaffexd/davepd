@@ -1,6 +1,6 @@
 import React from 'react';
 import Button from '../UI/Button';
-import externalPhoto from '../../assets/external2.jpg';
+import externalPhoto from '../../assets/external2.webp';
 
 import classes from './Pledge.module.css';
 

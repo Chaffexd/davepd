@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from '../UI/Button';
 
-import landingImage from '../../assets/landing.jpg';
+import landingImage from '../../assets/landing.webp';
 import classes from './Intro.module.css';
 
 const Intro = (props) => {

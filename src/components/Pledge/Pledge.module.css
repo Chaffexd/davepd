@@ -54,5 +54,6 @@ p, h1 {
 
 .image {
     width: 20em;
+    height: fit-content;
     border-radius: 0 0 40px 40px;
 }

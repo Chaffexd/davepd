@@ -5,25 +5,25 @@ import classes from './PortfolioItem.module.css';
 
 const workImages = [
     {
-        image: require('../../assets/residential.jpeg'),
+        image: require('../../assets/residential.webp'),
         id: 0,
         title: "Commercial painting and decorating",
         info: "Quality painting and decorating services in London and surrounding areas"
     },
     {
-        image: require('../../assets/residential2.jpeg'),
+        image: require('../../assets/residential2.webp'),
         id: 1,
         title: "Residential painting and decorating",
         info: "Any type of residential projects, regardless of size, area, or colour."
     },
     {
-        image: require('../../assets/commercial.jpeg'),
+        image: require('../../assets/commercial.webp'),
         id: 2,
         title: "Exterior painting and decorating",
         info: "Creating an exterior which is smart and aesthetically beautiful."
     },
     {
-        image: require('../../assets/external.jpeg'),
+        image: require('../../assets/external.webp'),
         id: 3,
         title: "Office painting and decorating",
         info: "Any office, big or small, with no disturbance to your business."
