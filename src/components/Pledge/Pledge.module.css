@@ -5,23 +5,40 @@
 
 .pledgeItems {
     width: 50%;
-    padding: 3em;
+    padding: 8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-h1 {
+.title {
     font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+.liTitle {
+    margin-bottom: 1em;
 }
 
 p, h1 {
     margin-bottom: .5em;
 }
 
-.pledgeLi {
-    margin-bottom: .5em; 
+.text {
+    margin-bottom: 1em;
+    font-size: 1.2em;
 }
 
-li:last-child {
+.trust {
+    font-weight: bold;
+}
+
+.pledgeUl {
     margin-bottom: 2em;
+}
+
+.pledgeLi {
+    margin-bottom: .5em; 
 }
 
 .imageContainer {

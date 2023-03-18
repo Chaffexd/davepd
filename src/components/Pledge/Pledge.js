@@ -8,10 +8,10 @@ const Pledge = () => {
   return (
     <div className={classes.pledgeContainer}>
         <div className={classes.pledgeItems}>
-            <h1>Excellent service guaranteed, delivered by our painters and decorators across London and Hertfordshire</h1>
-            <p>We value the trust that our clients place in us.</p>
-            <p>Here is our pledge to you:</p>
-            <ul>
+            <h1 className={classes.title}>Excellent service guaranteed, delivered by our painters and decorators across London and Hertfordshire</h1>
+            <p className={classes.text}>We value the <span className={classes.trust}>trust</span> that our clients place in us.</p>
+            <p className={classes.liTitle}>Here is our pledge to you:</p>
+            <ul className={classes.pledgeUl}>
                 <li className={classes.pledgeLi}>We will be honest and trustworthy</li>
                 <li className={classes.pledgeLi}>We will give you a realistic timescales, so you know how long your painting and decorating project will take</li>
                 <li className={classes.pledgeLi}>We will provide a final cost before starting painting and decorating</li>

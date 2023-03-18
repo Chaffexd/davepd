@@ -24,6 +24,7 @@ const NavBar = () => {
 
     return (
         <div className={classes.navContainer}>
+            <h1 className={classes.davesPD}>Dave's Painting & Decorating</h1>
             <ul className={classes.navItems}>
                 {navItems.map(item => 
                     <li 

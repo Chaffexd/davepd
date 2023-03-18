@@ -5,7 +5,8 @@
 .introText {
     width: 50%;
     height: 20em;
-    background-color: lightblue;
+    background-color: #442E39;
+    color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -14,9 +15,20 @@
 
 .introTitle {
     margin-bottom: 1.5em;
+    font-size: 1.2em;
 }
 
 .introPhoto {
     width: 50%;
-    background-color: blueviolet;
+}
+
+.image {
+    width: 100%;
+    height: 20em;
+}
+
+.span {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
 }

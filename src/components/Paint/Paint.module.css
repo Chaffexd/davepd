@@ -1,0 +1,28 @@
+.paintContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    margin: 1.5em 0 1.5em 0;
+    font-size: 1.5em;
+}
+
+.text {
+    font-size: 1.3em;
+}
+
+.paintImagesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    align-items: center;
+    margin: 4em 0 4em 0;
+}
+
+.paintImages {
+    height: 50px;
+}
