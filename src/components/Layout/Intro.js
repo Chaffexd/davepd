@@ -12,7 +12,7 @@ const Intro = (props) => {
               <br></br>  Hemel Hempstead, St. Albans and surrounding areas</h1>
             <Button 
             name="GET A QUOTE" 
-            link="https://www.trustatrader.com/traders/daves-painting-decorating-painters-decorators-st-albans" />
+             />
         </div>
         <div className={classes.introPhoto}>
             <img src={landingImage} alt="House painting" className={classes.image} />
