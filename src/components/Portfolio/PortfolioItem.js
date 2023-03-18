@@ -17,13 +17,13 @@ const workImages = [
         info: "Any type of residential projects, regardless of size, area, or colour."
     },
     {
-        image: require('../../assets/commercial.webp'),
+        image: require('../../assets/external.webp'),
         id: 2,
         title: "Exterior painting and decorating",
         info: "Creating an exterior which is smart and aesthetically beautiful."
     },
     {
-        image: require('../../assets/external.webp'),
+        image: require('../../assets/commerical.webp'),
         id: 3,
         title: "Office painting and decorating",
         info: "Any office, big or small, with no disturbance to your business."
