@@ -16,6 +16,7 @@
 .introTitle {
     margin-bottom: 1.5em;
     font-size: 1.2em;
+    padding: 1em;
 }
 
 .introPhoto {
@@ -37,9 +38,6 @@
     .introContainer {
         flex-direction: column;
         align-items: center;
-    }
-    .introTitle {
-        padding: 1em;
     }
     .introText, .introPhoto {
         width: 80%;
