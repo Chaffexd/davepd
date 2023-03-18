@@ -6,7 +6,7 @@ const Button = (props) => {
     return (
         <a href="https://www.trustatrader.com/traders/daves-painting-decorating-painters-decorators-st-albans" target="_blank" rel="noreferrer">
         <button className={classes.button}>
-            {props.name}
+            GET A QUOTE
         </button>
         </a>
     );
