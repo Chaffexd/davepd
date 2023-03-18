@@ -23,7 +23,7 @@ const workImages = [
         info: "Creating an exterior which is smart and aesthetically beautiful."
     },
     {
-        image: require('../../assets/commerical.webp'),
+        image: require('../../assets/commercial.webp'),
         id: 3,
         title: "Office painting and decorating",
         info: "Any office, big or small, with no disturbance to your business."
